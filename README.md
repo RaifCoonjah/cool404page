@@ -15,3 +15,7 @@ A simple 404 page based on Google's Material design 2 guidelines.
 - Live Search based on xml.
 - More Designs and Colors, from Ferarri red to Banana yellow!
 - Add icons in the buttons.
+
+
+
+- > Please check release tab, to download latest version of the page.
