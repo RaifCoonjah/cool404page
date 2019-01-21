@@ -11,7 +11,7 @@ A simple 404 page based on Google's Material design 2 guidelines.
 - > What's next?
 
 - A dark mode.
-- A switch to go from Day Light to Dark Light (My fancy names for light and dark mode)
-- Live Search based on xml and search.php
-- More Design and Colors, from Ferarri red to Banana yellow!
+- A switch to go from Day Light to Dark Light. (My fancy names for light and dark mode)
+- Live Search based on xml.
+- More Designs and Colors, from Ferarri red to Banana yellow!
 - Add icons in the buttons.
