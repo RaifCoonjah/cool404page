@@ -1,7 +1,8 @@
 - > Intro 
 
 A simple 404 error page based on Google's Material design 2 guidelines.
-About Material Design 2, here https://material.io/design/
+
+- About Material Design 2, here https://material.io/design/
 
 - > Features
 - Very fast to load. 
