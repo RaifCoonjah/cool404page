@@ -1,16 +1,16 @@
-- > Intro 
+> Intro 
 
 A simple 404 error page based on Google's Material design 2 guidelines.
 
 - About Material Design 2, here https://material.io/design/
 
-- > Features
+> Features
 - Very fast to load. 
 - Simple, yet clean and intruitive to use.
 - All-In-Page, all the code for the website is inside the page itself. No need for any external folders and files!
 - Regular updates. (I promise)
 
-- > What's coming in future updates?
+> What's coming in future updates?
 
 - ✅ A dark mode. (Has been implemented in the lastest update, check release page!)
 - A switch to go from Day Light to Dark Light.
@@ -21,4 +21,4 @@ A simple 404 error page based on Google's Material design 2 guidelines.
 
 
 
-- > Please check release tab, to download latest version of the page.
+> Please check release tab, to download latest version of the page.
