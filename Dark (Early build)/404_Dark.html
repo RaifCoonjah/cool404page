@@ -52,7 +52,8 @@
 
 
 
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 
 
@@ -63,7 +64,7 @@
 
         <!-- Title -->
 
-        <title>MSCW - Mayday! We're lost</title>
+        <title>404 - Mayday! We're lost</title>
 
         <!-- END -->
 
@@ -88,7 +89,7 @@
         <!-- Cookies notice -->
         <div class="cookie-container ex-1">
            <!-- <p>Update(s): Fixed page css not loading, by adding all css in page. May results in <b>slower</b> loading.</p> -->
-           <p> <b>Update(s):</b> Redesign v5 <a href="/changelogs/">here.</a>.</p> 
+           <p> <b>Created by</b> Mraif13</p> 
     </div>
         <!-- END. Cookies notice -->
 
@@ -256,22 +257,23 @@
 .search{
   font-family: Product Sans;
     border: 1px solid rgb(145, 145, 145);
-    border-radius: 100px; 
+    border-radius: 1000px; 
     text-align: left;
+    font-size:15px;
     outline:none;
     width: 260px;
-    font-weight: bold;
     height: 25px;
     padding: 8px 25px;
-    color:rgb(61, 61, 61);
-    background: rgb(255, 255, 255);
+    color:#ffffff;
+    background: #222;
 } 
 
 /* Hovering effect */
 
 .search:hover{
-    transition: 0.4s;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.055), 0 6px 20px 0 rgba(177, 177, 177, 0.19);
+    width: 280px;
     
 
 
@@ -307,6 +309,7 @@
 		margin: 0;
 		padding: 13px 75px;
 		transition: all .2s ease;
+    color:#ffffff;
 }
 
 .cookie-container.ex-1 {
@@ -367,8 +370,12 @@ function showResult(str) {
 
 <form>
 <input type="text" size="30" class="search"  placeholder="Try a search maybe?"  onkeyup="showResult(this.value)">
-<div id="livesearch"></div>
+<div id="livesearch"></div> 
 </form>
+
+
+
+
 
 <!-- END. Search bar -->
 
