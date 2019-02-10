@@ -103,7 +103,7 @@
   
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
 
-        <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z" id="Polygon-1" stroke="#007FB2" stroke-width="6" sketch:type="MSShapeGroup"></path>
+        <path d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z" id="Polygon-1" stroke="#2196F3" stroke-width="6" sketch:type="MSShapeGroup"></path>
 
         <path d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z" id="Polygon-2" stroke="#EF4A5B" stroke-width="6" sketch:type="MSShapeGroup"></path>
 
@@ -167,21 +167,20 @@
     border: 1px solid rgb(207, 207, 207);
     font-family: Product Sans;
     padding: 8px 25px;
-    border-radius: 6px;
+    border-radius: 1000px;
     color: #2196F3;
     font-size: 15px;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     cursor: pointer;
-    font-weight: bold;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     margin-right: 10px
   }
   .buttons-con .action-link-wrap a:hover {
-    background: #2196F3;
+    background: rgb(9, 144, 255);
     color:white;
-    border: 1px solid #2196F3;
+    border: 1px solid rgb(9, 144, 255);
     
   } 
   
@@ -189,8 +188,8 @@
   /* Polygon-animation.css v2 */
   
   #Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
-    -webkit-animation: float 0.5s infinite ease-in-out alternate;
-            animation: float 0.5s infinite ease-in-out alternate;
+    -webkit-animation: float 0.9s infinite ease-in-out alternate;
+            animation: float 0.9s infinite ease-in-out alternate;
   }
   #Polygon-2 {
     -webkit-animation-delay: .2s;
@@ -372,7 +371,7 @@ function showResult(str) {
 <!-- Search bar v4Dark -->
 
 <form>
-<input type="text" size="30" class="search"  placeholder="Try a search maybe?"  onkeyup="showResult(this.value)">
+<input type="text" size="32" class="search"  placeholder="Try a search maybe?"  onkeyup="showResult(this.value)">
 <div id="livesearch"></div> 
 </form>
 
@@ -388,7 +387,7 @@ function showResult(str) {
 
       <a onclick="history.back(-1)" class="link-button link-back-button">Go back in time</a>
 
-      <a href="/" class="link-button">Go back home</a>
+      <a href="/" class="link-button"> Go Home</a>
 
     </div>
 
