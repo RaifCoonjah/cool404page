@@ -5,9 +5,10 @@ A simple 404 error page based on Google's Material design 2 guidelines.
 - About Material Design 2, here https://material.io/design/
 
 > Features
-- Very fast to load. 
+- Very, very fast to load.
 - Simple, yet clean and intruitive to use.
-- Regular updates and improvements. (I promise)
+- Regular updates with new features and improvements.
+- Completely optimized for phones, tablet and more.
 
 > What's coming in future updates?
 
