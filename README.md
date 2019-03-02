@@ -21,7 +21,7 @@ A simple 404 error page based on Google's Material design 2 guidelines.
 - More Designs and Colors, from Ferarri red to Banana yellow!
 - Add icons in the buttons.
 - Reduce website size even more.
-- ✅ | AMOLED Theme (100% Black) - (Currently in early stage of development, check release page!)
+- ✅ | AMOLED Theme (100% Black) - (Has been implemented in the lastest update, check release page!)
 
 
 
