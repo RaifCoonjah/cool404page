@@ -14,13 +14,13 @@
 
 // Thanks for download! you can also donate to my paypal via this link: paypal.me/raifs
 
-// Based from FastLoad -1.9- 
+// Based from FastLoad -1.88- 
 
 // Design language/guidelines: Google's Material 2 
 
-// Version number: v4.2W (W means White)
+// Version number: v4.3W (W means White)
 
-// Full version number: v4.2W-FINALv400-22-2019
+// Full version number: v4.3W-FINALv400-33-2019
 -->
 
 
@@ -164,31 +164,37 @@
     line-height: 46px;
     margin-bottom: 40px;
   }
-  .buttons-con .action-link-wrap {
+/* FluidityButtons v5 */ 
+.buttons-con .action-link-wrap {
     margin-top: 40px;
   }
 
-
   .buttons-con .action-link-wrap a {
-    border: 1px solid rgb(207, 207, 207);
+    border: none;
     font-family: Product Sans;
     padding: 8px 25px;
-    border-radius: 10000px;
-    color: #2196F3;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     -webkit-transition: all 0.2s linear;
     transition: all 0.2s linear;
     cursor: pointer;
-    font-weight: bold;
+    background: #ffffff;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
     margin-right: 10px
   }
   .buttons-con .action-link-wrap a:hover {
-    background: rgb(179, 221, 255);
-    border: 1px solid #1565C0;
+    transition: 0.2s;
+    background: #1565C0;
+    color:white;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 0 4px 8px 0 rgba(199, 199, 199, 0.055), 0 6px 20px 0 rgb(148, 148, 148);
     
   } 
+  
+  /* FluidityButtons end */
+  
   
   
   /* Polygon-animation.css */
@@ -267,8 +273,8 @@
 
     color:black;
     background: white;
-    border: 2px solid #1565C0;
-    border-radius: 100px; 
+    border-radius: 10px; 
+    border: 2px solid rgb(211, 211, 211);
     text-align: left;
     outline:none;
     font-weight: bold;
@@ -283,6 +289,7 @@
     transition: 0.2s;
     box-shadow: 0 4px 8px 0 rgba(94, 94, 94, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width:267px;
+    border: 2px solid #1565C0;
 
 }
 
