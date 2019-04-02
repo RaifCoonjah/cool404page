@@ -14,13 +14,13 @@
 
 // Thanks for download! you can also donate to my paypal via this link: paypal.me/raifs
 
-// Based from FastLoad -1.88- 
+// Based from FastLoad -1.99- 
 
 // Design language/guidelines: Google's Material 2 
 
-// Version number: v4.3W (W means White)
+// Version number: v4.5W (W means White)
 
-// Full version number: v4.3W-FINALv400-33-2019
+// Full version number: v4.5W-FINALv405-55-2019
 -->
 
 
@@ -54,6 +54,9 @@
 <!-- Emoji support thanks to afeld-->
 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 <!-- // -->
+<!-- Font awesome support v4.7.0 v5 coming later -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- // -->
 
 
 
@@ -69,7 +72,7 @@
 
         <!-- Title -->
 
-        <title>CompanyName - Mayday! We're lost</title>
+        <title>CompanyName - 404 page not found!</title>
 
         <!-- END -->
 
@@ -176,8 +179,8 @@
     border-radius: 10px;
     color: rgb(0, 0, 0);
     font-size: 15px;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
     cursor: pointer;
     background: #ffffff;
     text-decoration: none;
@@ -185,10 +188,10 @@
     margin-right: 10px
   }
   .buttons-con .action-link-wrap a:hover {
-    transition: 0.2s;
+    transition: 0.1s;
     background: #1565C0;
     color:white;
-    border: 1px solid rgb(179, 179, 179);
+    border: 0px solid rgb(179, 179, 179);
     box-shadow: 0 4px 8px 0 rgba(199, 199, 199, 0.055), 0 6px 20px 0 rgb(148, 148, 148);
     
   } 
@@ -274,7 +277,7 @@
     color:black;
     background: white;
     border-radius: 10px; 
-    border: 2px solid rgb(211, 211, 211);
+    border: 2px solid white;
     text-align: left;
     outline:none;
     font-weight: bold;
@@ -386,19 +389,19 @@ function showResult(str) {
 <div id="livesearch"></div>
 </form>
 
-<!-- END. Search bar v2 -->
+<!-- END. Search bar -->
 
-  <div class="buttons-con">
+<div class="buttons-con">
 
-    <div class="action-link-wrap">
+  <div class="action-link-wrap">
 
-      <a onclick="history.back(-1)" class="link-button link-back-button">Go back in time</a>
+    <a onclick="history.back(-1)" class="link-button link-back-button"><i class="fa fa-undo" aria-hidden="true"></i>        Go back in time</a>
 
-      <a href="/" class="link-button">Go back home</a>
-
-    </div>
+    <a href="/" class="link-button"><i class="fa fa-home" aria-hidden="true"></i>                    Go Home</a>
 
   </div>
+
+</div>
 
 </div>
 
