@@ -19,7 +19,7 @@ A simple 404 error page based on Google's Material design 2 guidelines.
 - A switch to go from Day Light to Dark Light.
 - Live Search based on xml.
 - More Designs and Colors, from Ferarri red to Banana yellow!
-- Add icons in the buttons.
+- ✅ | Add icons in the buttons. (Has been implemented in the lastest update, check release page!)
 - Reduce website size even more.
 - ✅ | AMOLED Theme (100% Black) - (Has been implemented in the lastest update, check release page!)
 
