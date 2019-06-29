@@ -6,7 +6,7 @@ A 404 error page based on Google's Material design 2 guidelines.
 
 > Main Features
 1. Very, very fast to load.
-- Based on a special coding style and many tweaks with the html, css and javascript files the website loads extremely quickly.
+- Many tweaks with the html, css and javascript files the website loads extremely quickly. Even on slow internet connection 
 
 2. Simple, yet clean and intruitive to use.
 - Based on a very simple yet smooth design, anyone can use the website even your grandparents.
