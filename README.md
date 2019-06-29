@@ -1,6 +1,6 @@
 > Intro 
 
-A 404 error page based on Google's Material design 2 guidelines.
+A 404 error page that uses some parts of Google's Material design 2 guidelines.
 
 - Learn more Material Design 2, here https://material.io/design/
 
