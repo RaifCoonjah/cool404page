@@ -8,9 +8,9 @@
 
 // Design language/guidelines: Google's Material 2 
 
-// Version number: v4.8W (W means White)
+// Version number: v4.9W (W means White)
 
-// Full version number: v4.8W-FINALv408-88-2019
+// Full version number: v4.9W-FINALv409-99-2019
 -->
 
 <html class="no-js" lang="en"> 
@@ -163,7 +163,7 @@
     margin-right: 10px
   }
   .buttons-con .action-link-wrap a:hover {
-    transition: 0.1s;
+    transition: 0.3s;
     background: #1565C0;
     color:white;
     border: 0px solid rgb(179, 179, 179);
@@ -247,8 +247,7 @@
 
 
 .search{
-  font-family: Product Sans;
-
+    font-family: Product Sans;
     color:black;
     background: white;
     border-radius: 11px; 
@@ -264,7 +263,7 @@
 /* Hovering effect */
 
 .search:hover{
-    transition: 0.2s;
+    transition: 0.5s;
     box-shadow: 0 4px 8px 0 rgba(94, 94, 94, 0.055), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width:267px;
     border: 3px solid #1565C0;
@@ -357,11 +356,9 @@ function showResult(str) {
 
   END. Search.php -->
 
-
-<!-- Search bar -->
-
 <form>
-<input type="text" size="30" class="search"  placeholder="Search.."  onkeyup="showResult(this.value)">
+<input type="text" size="30" class="search" placeholder="&#xF002; Search" style="font-family:FontAwesome" onkeyup="showResult(this.value)">
+
 <div id="livesearch"></div>
 </form>
 
