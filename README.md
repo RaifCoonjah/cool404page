@@ -17,10 +17,7 @@ A 404 error page that uses some parts of Google's Material design 2 guidelines.
 4. Completely optimized for phones, tablet and more.
 - Build with phones and other portable devices in mind the website is completely optimized to work on anything you can access the web on.
 
-5. Old Browser Compadible.
-- Made with windows explorer users in mind, we've done some treaks to make the website actually load on it. (not tested yet)
-
-6. Very small file size. (9KB) That's lighter than your instagram profile picture!
+5. Very small file size. (9KB) That's lighter than your instagram profile picture!
 - The website has been compressed alot so it's even lighter than your instagram profile picture! or even a picture of a dog.
 
 > What's coming in future updates?
