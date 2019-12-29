@@ -21,10 +21,3 @@ A 404 error page that uses some parts of Google's Material design 2 guidelines.
 <b>5.</b> Very small file size. (9KB) That's lighter than your instagram profile picture!
 - The website has been compressed alot so it's even lighter than your instagram profile picture! or even a picture of a dog.
 
-<b> What's coming in future updates? </b>
-
-- ✅ | A dark mode. (Has been implemented in the lastest update, check release page!)
-- A switch to go from Day Light to Dark Light.
-- More Designs and Colors, from Ferarri red to Banana yellow!
-- ✅ | Add icons in the buttons. (Has been implemented in the lastest update, check release page!)
-- ✅ | AMOLED Theme (100% Black) - (Has been implemented in the lastest update, check release page!)
