@@ -5,6 +5,7 @@ A 404 error page that uses some parts of Google's Material design 2 guidelines.
 - Learn more Material Design 2, here https://material.io/design/
 
 <b> Main Features </b>
+
 <b>1.</b> Very, very fast to load.
 - Many tweaks with the html, css and javascript files the website loads extremely quickly. Even on slow internet connection 
 
