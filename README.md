@@ -1,1 +1,1 @@
-We're currently moving somewhere else (:
+This project is no longer supported.
